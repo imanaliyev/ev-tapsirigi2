@@ -1,0 +1,315 @@
+nav{
+    /* margin-left: 50px; */
+    position: fixed;
+    max-width: 350px;
+    min-width: 300px;
+    min-height: 1000px;
+    /* background-color: aqua; */
+    display: flex;
+    background-color: white;
+    
+}
+body{
+    width: 100%;
+    /* display: flex; */
+}
+header{
+    max-width: 15%;
+}
+main{
+     width: 85%;
+    position: absolute;
+    right: 0px;
+}
+nav .container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    gap: 7px;
+}
+nav .container .photo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+nav .container .photo img{
+    border-radius: 5px;
+}
+nav .container span{
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+
+}
+nav .container .windows{
+    width: 120px;
+    height: 40px;
+    color: rgb(69, 196, 153);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav .container .windows span{
+    color: rgb(69, 196, 153); 
+}
+nav .container .about{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+nav .container .about span{
+    color: black;
+}
+.fa-user-large{
+    position: absolute;
+    left: 5px;
+    
+
+}
+nav .container .contact{
+    position: relative;
+    width: 120px;
+    height: 40px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+nav .container .contact span{
+    color: black;
+}
+.fa-envelope{
+    position: absolute;
+    left: 5px;
+
+
+}
+nav .container .contact span{
+    position: absolute;
+    right: 20px;
+}
+.sosialm{
+    font-size: 16px;
+    position: absolute;
+    left: 23px;
+    top: 400px;
+    font-weight: bold;
+}
+#first{
+    height: 20vh;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+}
+#first h1{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size: 45px;
+    margin-left: 20px;
+}
+#first .filter{
+    margin-left: 20px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.grandline{
+    margin-left: 20px;
+    width: 98%;
+    height: 5px;
+    background-color: rgb(211, 211, 211);
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    transition: 300ms;
+
+}
+.all:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.filter .design{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 90px;
+    height: 30px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+    
+    
+}
+.filter .design:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.filter .photos{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 90px;
+    height: 30px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+
+}
+.filter .photos:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.filter .art{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 60px;
+    height: 30px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+}
+.filter .art:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#second{
+    height: 110vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#second .cards{
+   
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#second .cards {
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+#second .cards .card{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+#second .buttons{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    transition: 400ms;
+}
+#second .buttons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+.sol{
+    font-size: 10px;
+    transition: 100ms;
+
+}
+.sol:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.sag{
+    font-size: 10px;
+    transition: 100ms;
+}
+.sag:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons .bir{
+    background-color: black;
+    color: white;
+    transition: 100ms;
+}
+.buttons .bir:hover{
+    background-color: rgb(128, 128, 128);
+    color: rgb(66, 65, 65);
+    cursor: pointer;
+
+}
+.buttons .iki{
+    transition: 100ms;
+}
+.buttons .iki:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.buttons .uc{
+    transition: 100ms;
+}
+.buttons .uc:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons .dord{
+    transition: 100ms;
+}
+.buttons .dord:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons .bes{
+    transition: 100ms;
+}
+.buttons .bes:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
